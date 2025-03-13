@@ -1,7 +1,177 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 2 versions,> 1%,not dead
+*/
+
 * {
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: "Young Serif";
+    src: url(fonts/young-serif/YoungSerif-Regular.ttf), format(truetype);
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url(fonts/outfit/Outfit-VariableFont_wght.ttf), format(truetype);
+}
+
 body {
-    margin: 0
+    margin: 0;
+    font-size: 16px;
+    font-family: "Outfit", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: hsl(24, 5%, 18%);
+    line-height: 1.4em;
+}
+
+img {
+    width: 100%
+}
+
+header p {
+    padding: 0 30px
+}
+
+h1 {
+    font-family: "Young Serif", Arial, Helvetica, sans-serif;
+    padding: 5px 30px;
+    font-weight: 500;
+    line-height: 1em;
+}
+
+.strong {
+    font-weight: 700;
+}
+
+main {
+    width: 100%;
+    padding: 0 30px
+}
+
+section {
+    margin-top: 40px
+}
+
+.preparation-time {
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 5%;
+    padding: 10px 10px;
+    position: relative;
+}
+
+h3 {
+    color: hsl(332, 51%, 32%);
+    padding-left: 12px;
+    padding-top: 0;
+    margin-top: 10px;
+}
+
+section li {
+    margin-top: 10px;
+    padding-left: 20px
+}
+
+.preparation-time li:first-of-type {
+    list-style: none;
+}
+
+.preparation-time li:first-of-type::before {
+    content: "•";
+    font-size: 1.5em;
+    position: absolute;
+    top: 15px;
+    left: 34px;
+    top: 70px;
+    color: hsl(332,51%, 32%)
+}
+
+.preparation-time li {
+    padding-left: 30px;
+}
+
+.preparation-time li::marker {
+    color: hsl(332, 51%, 32%);
+    font-size: 0.9em;
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.ingredients li::marker {
+    font-size: 0.8em;
+    color: hsl(14, 45%, 36%)
+}
+
+.instructions li::marker {
+    font-size: 1em;
+    color: hsl(332, 51%, 32%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+main section:nth-of-type(2) ul, section ol {
+    padding-left: 20px
+}
+
+hr {
+    color: hsl(30, 10%, 34%);
+    margin-top: 30px
+}
+
+table tr td:nth-of-type(2) {
+    font-weight: 600;
+    color: hsl(14, 45%, 36%);
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+table td {
+    border-bottom: 1px solid hsl(30, 10%, 34%);
+    padding: 10px 60px 10px 30px;
+}
+
+table tr:nth-of-type(4) td {
+    border-bottom: none
+}
+
+@media only screen and (min-width: 1440px) {
+    body {
+        background-color: hsl(30, 54%, 90%)
+    }
+    .container {
+        background-color: white;
+        max-width: 780px;
+        margin: 200px auto;
+        border-radius: 40px;
+        padding: 40px
+    }
+    img {
+        border-radius: 20px;
+    }
+    h1 {
+        font-size: 2.3em;
+    }
+    section, header {
+        padding: 0
+    }
+    header p, h1 {
+        padding-left: 10px;
+        max-width: 680px
+    }
+    main {
+        padding: 0
+    }
+    table td {
+        padding-right: 240px
+    }
 }
