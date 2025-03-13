@@ -10,6 +10,6 @@ Il consiste à créer une page de recette en respectant une maquette donnée.
 
 ## Modèles :
 
-[Aperçu de la recette version desktop](https://github.com/jlepan/recipe-page/blob/master/design/desktop-design.jpg)
+[Aperçu de la recette version desktop](https://github.com/jlepan/recipe-page/blob/main/design/desktop-design.jpg)
 
-[Aperçu de la recette version mobile](https://github.com/jlepan/recipe-page/blob/master/design/mobile-design.jpg)
+[Aperçu de la recette version mobile](https://github.com/jlepan/recipe-page/blob/main/design/mobile-design.jpg)
