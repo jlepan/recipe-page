@@ -15,8 +15,8 @@ Il consiste à créer une page de recette en respectant une maquette donnée.
 [Aperçu de la recette version mobile](https://github.com/jlepan/recipe-page/blob/main/design/mobile-design.jpg)
 
 ## Installation
-1. Cloner ce repository :
-  ```bash
-  git clone https://github.com/jlepan/recipe-page.git
-
-2. Ouvrir le fichier index.html dans le navigateur pour voir la page
+1. Cloner ce repository :  
+   ```bash
+   git clone https://github.com/jlepan/recipe-page.git
+   
+2. Ouvrir le fichier index.html dans le navigateur pour voir la page.
