@@ -14,7 +14,7 @@ Il consiste à créer une page de recette en respectant une maquette donnée.
 
 [Aperçu de la recette version mobile](https://github.com/jlepan/recipe-page/blob/main/design/mobile-design.jpg)
 
-## Capture d'écran du projet
+## Captures d'écran du projet
 
 [Aperçu de ma version desktop](https://github.com/jlepan/recipe-page/blob/main/aper%C3%A7u-projet/aper%C3%A7u-desktop.png)
 
