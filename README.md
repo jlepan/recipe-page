@@ -26,3 +26,10 @@ Il consiste à créer une page de recette en respectant une maquette donnée.
    git clone https://github.com/jlepan/recipe-page.git
    
 2. Ouvrir le fichier index.html dans le navigateur pour voir la page.
+
+## Auteur
+- [Juliette Lepan](https://github.com/jlepan)  
+- [Mon profil Frontend Mentor](https://www.frontendmentor.io/profile/jlepan)
+
+## Crédits
+Design original par [Frontend Mentor](https://www.frontendmentor.io/)
