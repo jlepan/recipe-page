@@ -20,6 +20,10 @@ Il consiste à créer une page de recette en respectant une maquette donnée.
 
 ![Aperçu de ma version mobile](https://github.com/jlepan/recipe-page/blob/main/aper%C3%A7u-projet/aper%C3%A7u-mobile.png)
 
+## Projet en ligne
+
+[Voir le projet en ligne](https://jlepan.github.io/recipe-page/)
+
 ## Installation
 1. Cloner ce repository :  
    ```bash
