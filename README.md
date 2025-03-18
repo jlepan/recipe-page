@@ -1,4 +1,4 @@
-# **recipe-page**
+# recipe-page
 
 Ce projet est un exercice réalisé dans le cadre des défis de [Frontend Mentor](https://www.frontendmentor.io/). 
 Il consiste à créer une page de recette en respectant une maquette donnée.
